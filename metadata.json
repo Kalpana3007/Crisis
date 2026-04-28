@@ -1,0 +1,6 @@
+{
+  "name": "Crisis Response System",
+  "description": "A rapid-response emergency application for instant SOS alerts, medical assistance, and fire emergency coordination with real-time GPS tracking.",
+  "requestFramePermissions": ["geolocation", "microphone"],
+  "majorCapabilities": []
+}

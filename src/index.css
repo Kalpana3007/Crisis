@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    background-color: #FFFFFF;
+    color: #1E293B;
+    font-family: 'Inter', sans-serif;
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .sos-gradient {
+    background: radial-gradient(circle, #EF4444 0%, #B91C1C 100%);
+    box-shadow: 0 0 0 10px rgba(239, 68, 68, 0.1), 0 10px 25px rgba(239, 68, 68, 0.2);
+  }
+  
+  .type-card-fire {
+    background-color: #FFF7ED;
+    border: 1px solid #FFEDD5;
+    color: #F97316;
+  }
+  
+  .type-card-medical {
+    background-color: #EFF6FF;
+    border: 1px solid #DBEAFE;
+    color: #3B82F6;
+  }
+
+  .type-card-security {
+    background-color: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    color: #0F172A;
+  }
+
+  .status-terminal {
+    font-family: var(--font-mono);
+    color: #059669;
+  }
+
+  .panel-bg {
+    background-color: #FFFFFF;
+    border: 1px solid #F1F5F9;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  }
+}

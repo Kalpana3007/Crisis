@@ -58,7 +58,7 @@ During emergencies in hotels/venues, critical information stays siloed — guest
 ---
 
 ## 📸 Screenshots
-![Dashboard](Screenshot 2026-05-15 190758.png)
+![Dashboard](<Screenshot 2026-05-15 190758.png>)
 
 ---
 
